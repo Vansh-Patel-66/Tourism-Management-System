@@ -3,7 +3,7 @@
 *A Tourism Management System built with PHP, MySQL, HTML, and CSS, allowing users to browse tour packages, make payments, contact support, and for admin to manage users, packages, and bookings.*
 
  # Project Structure
-1.Main Pages
+1. Main Pages
 ```
 ├── index.php / home.php          # Home page
 
@@ -21,7 +21,7 @@
 
 └── sign_up.php                   # User signup page
 ```
-2.Admin Pages
+2. Admin Pages
 ```
 ├── admin/
 
@@ -35,13 +35,13 @@
 
 └── delete_user.php           # Delete user handler
 ```
-3.Image File
+3. Image File
 ```
 ├── images/
 
 └── *.webp, *.jpg, *.png      # Image assets for packages & UI
 ```
-4.DataBase
+4. DataBase
 ```
 ├── database/
 
@@ -190,3 +190,13 @@ Open your browser → http://localhost/tourism-management/home.php.
 
 >Update images in the images folder.<br>
 >Customize CSS in style.css.
+
+# Contact
+
+If you'd like to connect or collaborate, feel free to reach out:
+
+**Email: vansh2966.patel@gmail.com**
+
+**LinkedIn: Your LinkedIn
+
+GitHub: your-username
