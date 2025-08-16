@@ -1,9 +1,10 @@
 # Tourism Management System
 
-A Tourism Management System built with PHP, MySQL, HTML, and CSS, allowing users to browse tour packages, make payments, contact support, and for admin to manage users, packages, and bookings.
+*A Tourism Management System built with PHP, MySQL, HTML, and CSS, allowing users to browse tour packages, make payments, contact support, and for admin to manage users, packages, and bookings.*
 
  # Project Structure
-
+1.Main Pages
+```
 ├── index.php / home.php          # Home page
 
 ├── tour_packages.php             # Display all tour packages
@@ -18,30 +19,34 @@ A Tourism Management System built with PHP, MySQL, HTML, and CSS, allowing users
 
 ├── login.php                     # User login page
 
-├── sign_up.php                   # User signup page
-
+└── sign_up.php                   # User signup page
+```
+2.Admin Pages
+```
 ├── admin/
 
-│   ├── admin.php                 # Admin dashboard
+├── admin.php                 # Admin dashboard
 
-│   ├── managepack.php            # Manage tour packages
+├── managepack.php            # Manage tour packages
 
-│   ├── user.php                   # Manage users
+├── user.php                   # Manage users
 
-│   ├── booking.php               # Manage bookings
+├── booking.php               # Manage bookings
 
-│   └── delete_user.php           # Delete user handler
-
+└── delete_user.php           # Delete user handler
+```
+3.Image File
+```
 ├── images/
 
-│   └── *.webp, *.jpg, *.png      # Image assets for packages & UI
-│
-
+└── *.webp, *.jpg, *.png      # Image assets for packages & UI
+```
+4.DataBase
+```
 ├── database/
 
-│   └── tour.sql                  # SQL script to create tables
-
-└── README.md                     # Project documentation
+└── tour.sql                  # SQL script to create tables
+```
 
 # Features
 
@@ -81,9 +86,9 @@ Validation & Security:
 
 # Database Structure
 
-Database Name: tour
+- Database Name: tour
 
-Tables:
+- Tables:
 
 1.user
 
@@ -156,36 +161,32 @@ CREATE TABLE contacts_us (
 
 # Setup Instructions
 
-Install XAMPP or WAMP (with PHP and MySQL support).
+>Install XAMPP or WAMP (with PHP and MySQL support).<br>
+>Start Apache and MySQL services.
 
-Start Apache and MySQL services.
+- Create Database:
 
-Create Database:
+>Open phpMyAdmin → Create a database tour.<br>
+>Import tour.sql file, or create tables manually using the SQL above.
 
-Open phpMyAdmin → Create a database tour.
+- Project Files:
 
-Import tour.sql file, or create tables manually using the SQL above.
+>Copy all project files into the htdocs folder (for XAMPP) or the equivalent web root.
 
-Project Files:
+- Configure Database Connection:
 
-Copy all project files into the htdocs folder (for XAMPP) or the equivalent web root.
+>Open each PHP file using mysqli_connect() and ensure host, username, password, and database name are correct.
 
-Configure Database Connection:
-
-Open each PHP file using mysqli_connect() and ensure host, username, password, and database name are correct.
-
-Run the Project:
+- Run the Project:
 
 Open your browser → http://localhost/tourism-management/home.php.
 
-Admin Panel Access:
+- Admin Panel Access:
 
-username-admin     Password-12345
+>username-admin     Password-12345<br>
+>(It is given in admin.php by default you can change if you need)
 
-(It is given in admin.php by default you can change if you need)
+- Optional:
 
-Optional:
-
-Update images in the images folder.
-
-Customize CSS in style.css.
+>Update images in the images folder.<br>
+>Customize CSS in style.css.
