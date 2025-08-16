@@ -195,8 +195,7 @@ Open your browser → http://localhost/tourism-management/home.php.
 
 If you'd like to connect or collaborate, feel free to reach out:
 
-**Email: vansh2966.patel@gmail.com**
-
+**Email: vansh2966.patel@gmail.com**<br>
 **LinkedIn:** [Vansh Patel](https://www.linkedin.com/in/vansh-patel-0b3538321)  
 **GitHub:** [Vansh-Patel-66](https://github.com/Vansh-Patel-66)
 
