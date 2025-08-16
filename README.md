@@ -197,6 +197,7 @@ If you'd like to connect or collaborate, feel free to reach out:
 
 **Email: vansh2966.patel@gmail.com**
 
-- **LinkedIn:** [Vansh Patel](www.linkedin.com/in/vansh-patel-0b3538321)  
-- **GitHub:** [Vansh Patel] (https://github.com/Vansh-Patel-66)
+**LinkedIn:** [Vansh Patel](https://www.linkedin.com/in/vansh-patel-0b3538321)  
+**GitHub:** [Vansh-Patel-66](https://github.com/Vansh-Patel-66)
+
 
